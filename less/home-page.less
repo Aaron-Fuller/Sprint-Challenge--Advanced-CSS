@@ -24,6 +24,8 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+
     }
   }
 
@@ -46,6 +48,12 @@
     display: flex;
     justify-content: center;
 
+    @media mobile {
+        margin:none;
+        padding: none;
+        flex-direction: column;
+    }
+
     .walk-text {
       width: 50%;
 
@@ -58,7 +66,18 @@
       }
 
       .btn {
+        .buttons
       }
+
+      :hover {
+        color: black;
+        background-color: white;
+      }
+
+      @media @mobile {
+        width: 100%;
+      }
+
     }
 
     .walk-img {
@@ -73,3 +92,44 @@
     }
   }
 }// home
+
+.walk {
+
+  @media mobile {
+    .flex;
+    flex-direction: column-reverse;
+  }
+
+
+}
+
+.space-images{
+  .flex;
+  
+}
+
+.blast {
+  @media @mobile {
+    align-self: center
+  
+  }
+}
+
+.sky {
+  @media @mobile {
+    display: none;
+  }
+}
+
+.launch {
+  @media @mobile {
+    display: none;
+  }
+}
+
+.btn {
+  @media mobile {
+    width: 95%;
+  }
+}
+

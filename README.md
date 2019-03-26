@@ -34,13 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive layouts borrow from the speed of a fixed layout but accommodate different devices at specific breakpoints in design. For example, an adaptive website may have hard coded pixels used for layout using media queries for different devices.
+
+Responsive layouts combine features of fixed, adaptive, and fluid websites together into one seamless experience. Media queries are used to constrain responsive units so that as the viewport expands or shrinks, you get an experience that looks and functions beautifully across thousands of devices and screen sizes.
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first would mean that you start with mobile and use min width and mobe up to desktop. Desktop first means you start with desktip using max width and work your way down to mobile
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+This now means that if the user’s default browser font-size is changed to, for example, 20px, 1.6rem would now equal 20px. So if your user wants bigger fonts, let them. Happy designer. Happy developer. All numbers are still easy to work with.
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
+A language that makes writing CSS easier and writes it to CSS for you.
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Mixins and Nesting are the best. Escaping gives the most trouble.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -52,7 +69,7 @@ Because you are using a preprocessor, there are two parts to setting up your pro
 
 Follow these steps to set up your project:
 
-- [ ] Create a forked copy of this project.
+- [x] Create a forked copy of this project.
 - [ ] Add your project manager as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
